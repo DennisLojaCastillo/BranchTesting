@@ -4,5 +4,12 @@ public class Main {
         Cat cat = new Cat();
         dog.makeSound();
         cat.makeSound();
+
+        dog.showMood(true);
+        dog.showMood(false);
+
+        cat.showMood(true);
+        cat.showMood(false);
+
     }
 }
